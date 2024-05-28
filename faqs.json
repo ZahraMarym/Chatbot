@@ -1,0 +1,391 @@
+{
+    "intents":[
+      {
+         "tag":"greetings",
+         "patterns":[
+            "Hi",
+            "What can you do?",
+            "Help me",
+            "IAssist me",
+            "Hello"
+         ],
+         "responses":[
+            "Hi! I am Here to assist you. Frequently ask a Question."
+         ],
+         "context":[
+            ""
+         ]
+      },
+       {
+          "tag":"create_account",
+          "patterns":[
+             "How to create an account?",
+             "How do I create an account?",
+             "How should I create an account?",
+             "Is creating an account easy?",
+             "Can you tell me how to create an account?"
+          ],
+          "responses":[
+             "You can create an account by clicking the 'Sign Up' button on our homepage."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"return_policy",
+          "patterns":[
+             "What is your return policy?",
+             "How do I return an item?",
+             "Can I return a product?",
+             "Tell me about your return policy"
+          ],
+          "responses":[
+             "You can return any item within 30 days of purchase."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"track_order",
+          "patterns":[
+             "How can I track my order?",
+             "Where is my order?",
+             "Track my order",
+             "How to track order?",
+             "Order tracking information"
+          ],
+          "responses":[
+             "You can track your order using the tracking number provided in the confirmation email."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"international_shipping",
+          "patterns":[
+             "Do you offer international shipping?",
+             "Can I get international shipping?",
+             "Do you ship internationally?",
+             "Is international shipping available?",
+             "Tell me about international shipping"
+          ],
+          "responses":[
+             "Yes, we offer international shipping to most countries."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"payment_methods",
+          "patterns":[
+             "What payment methods are accepted?",
+             "How can I pay?",
+             "Payment options",
+             "Which payment methods do you accept?",
+             "Tell me about payment methods"
+          ],
+          "responses":[
+             "We accept Visa, MasterCard, American Express, and PayPal."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"contact_customer_service",
+          "patterns":[
+             "How do I contact customer service?",
+             "Customer service contact",
+             "Contact customer support",
+             "Customer service information",
+             "How to reach customer service?"
+          ],
+          "responses":[
+             "You can contact customer service via email or phone."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"business_hours",
+          "patterns":[
+             "What are your business hours?",
+             "Working hours",
+             "Business hours information",
+             "When are you open?",
+             "What time do you open?"
+          ],
+          "responses":[
+             "Our business hours are Monday to Friday, 9 AM to 5 PM."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"change_order",
+          "patterns":[
+             "Can I change my order after placing it?",
+             "Modify my order",
+             "Change order details",
+             "Edit my order",
+             "How to change order after placing?"
+          ],
+          "responses":[
+             "Yes, you can change your order within 24 hours of placing it."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"shipping_time",
+          "patterns":[
+             "How long does shipping take?",
+             "Shipping time",
+             "Delivery time",
+             "When will my order arrive?",
+             "Shipping duration"
+          ],
+          "responses":[
+             "Shipping usually takes 5-7 business days within the US."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"gift_wrapping",
+          "patterns":[
+             "Do you offer gift wrapping?",
+             "Is gift wrapping available?",
+             "Can I get my order gift wrapped?",
+             "Gift wrap options",
+             "Tell me about gift wrapping"
+          ],
+          "responses":[
+             "Yes, we offer gift wrapping for an additional fee."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"privacy_policy",
+          "patterns":[
+             "What is your privacy policy?",
+             "Privacy policy details",
+             "Tell me about your privacy policy",
+             "How do you handle privacy?",
+             "Privacy policy information"
+          ],
+          "responses":[
+             "Our privacy policy can be found on our website."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"cancel_order",
+          "patterns":[
+             "Can I cancel my order?",
+             "How to cancel my order?",
+             "Cancel order information",
+             "Order cancellation",
+             "Tell me how to cancel my order"
+          ],
+          "responses":[
+             "Yes, you can cancel your order within 24 hours of placing it."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"reset_password",
+          "patterns":[
+             "How do I reset my password?",
+             "Forgot password",
+             "Reset account password",
+             "Password reset instructions",
+             "Tell me how to reset my password"
+          ],
+          "responses":[
+             "You can reset your password by clicking the 'Forgot Password' link on the login page."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"bulk_purchase_discount",
+          "patterns":[
+             "Do you offer discounts for bulk purchases?",
+             "Bulk purchase discount",
+             "Discounts for large orders",
+             "Bulk buying discount",
+             "Tell me about bulk purchase discounts"
+          ],
+          "responses":[
+             "Yes, we offer discounts for bulk purchases. Please contact us for more details."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"product_warranty",
+          "patterns":[
+             "What is the warranty on your products?",
+             "Product warranty information",
+             "Warranty details",
+             "Tell me about product warranty",
+             "Do your products have a warranty?"
+          ],
+          "responses":[
+             "Our products come with a one-year warranty."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"use_promo_code",
+          "patterns":[
+             "How do I use a promo code?",
+             "Applying promo code",
+             "Promo code usage",
+             "How to enter promo code",
+             "Tell me how to use a promo code"
+          ],
+          "responses":[
+             "You can enter the promo code during checkout."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"return_without_receipt",
+          "patterns":[
+             "Can I return an item without the receipt?",
+             "Return without receipt",
+             "Receipt-less return",
+             "How to return without receipt",
+             "Tell me about returning without a receipt"
+          ],
+          "responses":[
+             "A receipt is required for all returns."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"loyalty_program",
+          "patterns":[
+             "Do you have a loyalty program?",
+             "Loyalty program information",
+             "Tell me about your loyalty program",
+             "How does your loyalty program work?",
+             "Loyalty program details"
+          ],
+          "responses":[
+             "Yes, we have a loyalty program. You can sign up on our website."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"exchange_policy",
+          "patterns":[
+             "What is your exchange policy?",
+             "Exchange policy details",
+             "How to exchange an item?",
+             "Tell me about your exchange policy",
+             "Exchange policy information"
+          ],
+          "responses":[
+             "Exchanges are allowed within 30 days of purchase."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"unsubscribe_newsletter",
+          "patterns":[
+             "How do I unsubscribe from your newsletter?",
+             "Unsubscribe from newsletter",
+             "Stop receiving newsletter",
+             "Newsletter unsubscribe instructions",
+             "Tell me how to unsubscribe from the newsletter"
+          ],
+          "responses":[
+             "You can unsubscribe by clicking the 'Unsubscribe' link in the newsletter email."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"update_shipping_address",
+          "patterns":[
+             "Can I update my shipping address?",
+             "How to update shipping address?",
+             "Change shipping address",
+             "Update my address",
+             "Tell me how to update my shipping address"
+          ],
+          "responses":[
+             "Yes, you can update your shipping address in your account settings."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"ship_to_PO_boxes",
+          "patterns":[
+             "Do you ship to PO boxes?",
+             "Can I ship to a PO box?",
+             "Shipping to PO box",
+             "Tell me about shipping to PO boxes",
+             "PO box shipping information"
+          ],
+          "responses":[
+             "Yes, we ship to PO boxes."
+          ],
+          "context":[
+             ""
+          ]
+       },
+       {
+          "tag":"apply_for_job",
+          "patterns":[
+             "How do I apply for a job?",
+             "Job application process",
+             "Applying for a job",
+             "How to apply for a job?",
+             "Tell me how to apply for a job"
+          ],
+          "responses":[
+            "You can Aplly for jobs by clicking on careers"
+         ],
+         "context":[
+            ""
+         ]
+        }
+    ]
+}
+    
+
+         
+ 
